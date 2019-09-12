@@ -51,7 +51,7 @@ open class MIBadgeButton: UIButton {
      Vertical margin in badge
      This is the space between text and badge's vertical edge
     **/
-    var innerVerticalMargin : CGFloat = 5.0{
+    open var innerVerticalMargin : CGFloat = 5.0{
         
         didSet{
             setupBadgeViewWithString(badgeText: badgeString)
@@ -62,7 +62,7 @@ open class MIBadgeButton: UIButton {
      Horizontal margin in badge
      This is the space between text and badge's horizontal edge
      **/
-    var innerHorizontalMargin : CGFloat = 10.0{
+    open var innerHorizontalMargin : CGFloat = 10.0{
         
         didSet{
             setupBadgeViewWithString(badgeText: badgeString)
